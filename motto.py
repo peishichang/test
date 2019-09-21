@@ -5,3 +5,4 @@ print(str1)
 #月有阴晴圆缺
 str2='月有阴晴圆缺'
 print(str2)
+print('test2')
