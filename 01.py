@@ -6,10 +6,19 @@
 # 开发工具: PyCharm
 class Cat:
     def eat(self):
-        print('小猫爱吃鱼')
+        print('%s 爱吃鱼' % self.name)
     def drink(self):
-        print('小猫要喝水')
+        print('%s 爱喝水' % self.name)
 
 
 tom = Cat()
 lazy_cat = Cat()
+
+tom.name = 'Tom'
+lazy_cat.name = 'LazyCat'
+tom.eat()
+tom.drink()
+lazy_cat.eat()
+lazy_cat.drink()
+
+
