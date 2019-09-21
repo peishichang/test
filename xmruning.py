@@ -23,11 +23,16 @@ class Person:
         print('%s是吃货，吃完这顿在减肥' %self.weight)
         self.weight += 1
 
+
 xiaoming = Person('小明', 75.0)
+xiaomei = Person('小美', 45.0)
 
 xiaoming.run()
 xiaoming.eat()
+xiaomei.run()
+xiaomei.eat()
 
 print(xiaoming)
+print(xiaomei)
 
 
