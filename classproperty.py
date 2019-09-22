@@ -7,6 +7,13 @@
 
 class Tool(object):
     count = 0
+    @classmethod
+    def show_tool_count(cls):
+        print(cls.count)
+
+    @staticmethod
+    def drop():
+        print('工具掉了')
 
     def __init__(self, name):
         self.name = name
@@ -17,4 +24,4 @@ tool1 = Tool('axe')
 tool2 = Tool('hammer')
 tool3 = Tool('bucket')
 
-print(Tool.count)
+Tool.drop()
